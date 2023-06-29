@@ -4,6 +4,10 @@
 	align-items: center;
 }
 
+.footer a:hover {
+	text-decoration: underline;
+}
+
 .footer > *:first-child {
 	border-bottom: 1px solid #3c4043;
 	padding: 0.9375rem 1.875rem;
