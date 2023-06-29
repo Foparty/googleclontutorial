@@ -3,6 +3,7 @@
 	background-color: #202124;
 	color: #f2f2f2;
 	--gridbtn: rgba(255, 255, 255, 0.87);
+	--searchicons: #9aa0a6;
 }
 * {
 	margin: 0;
@@ -39,7 +40,6 @@ a {
 }
 
 .img-section {
-	border: 1px solid red;
 	min-height: 5.75rem;
 	max-height: 18.25rem;
 	height: calc(100% - 36rem);
@@ -49,7 +49,13 @@ a {
 }
 
 .search-section {
-	height: 6rem;
+	border: 1px solid red;
+	width: min(100% - 4rem, 40rem);
+	height: 8.875rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
 }
 
 .data-section {
