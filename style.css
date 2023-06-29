@@ -66,4 +66,9 @@ a {
 
 .footer {
 	border: 1px solid red;
+	background: #171717;
+	width: 100%;
+	min-height: 3rem;
+	color: #bdc1c6;
+	font-size: 0.875rem;
 }
